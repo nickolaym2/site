@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'foo';
+    src: url('fonts/foo.ttf');
+
+    font-family: 'franklin gothik';
+    src: url('fonts/franklin gothik.ttf');
+}
+
+p.big {
+    font-family: 'foo';
+    src: url('fonts/foo.ttf');
+    border: 0px solid #666; /* Параметры рамки */
+    padding: 0px; /* Поля вокруг текста */
+    margin-top: 400px; /* Отступы вокруг */
+    line-height: 1.0;
+    font-size: 60;
+    font-style: regular;
+    color: black;
+    text-align: center;
+    padding-left: 30px;
+}
+
+p.info {
+    font-family: 'Franklin Gothic';
+    src: url('fonts/framd.ttf');
+    border: 0px solid #666; /* Параметры рамки */
+    padding: 0px; /* Поля вокруг текста */
+    margin-top: 80px; /* Отступы вокруг */
+    margin-bottom: 0px;
+
+
+    font-size: larger; 
+    font-style: regular;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+    line-height: 1.2;
+}
+
+p.audio {
+    font-family: 'Franklin Gothic';
+    src: url('fonts/framd.ttf');
+    font-size: larger; 
+    font-style: regular;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+    line-height: 1.2;
+    padding-right: 0px;
+}
+
+p.contacts {
+    font-family: 'Franklin Gothic';
+    src: url('fonts/framd.ttf');
+    font-size: larger; 
+    font-style: regular;
+    margin-top: 80px;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+    line-height: 1.2;
+    padding-right: 15px;
+}
+
+p.star {
+    font-family: 'Franklin Gothic';
+    src: url('fonts/framd.ttf');
+    font-size: 15; 
+    font-style: regular;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 140px; /* Отступы вокруг */
+    padding-right: 15px;
+}
+
+div.puh {
+    justify-content: center;
+    border-image: 0px;
+    margin-top: -80px;
+}
+
+div.bees_left {
+    align-content: left;
+	margin-left: 10px;
+}
+
+
+div.bees_right {
+    border-image: 0px;
+    margin-top: -480px;
+
+}
+
+div.honey {
+    align-content: center;
+    border-image: 0px;
+    margin-top: 30px;
+    padding-right: 15px;
+}
+
+audio {
+
+    margin-top: 0px;
+    padding-right: 0px;
+    alignment-baseline: central;
+
+}
+
+table.audio {
+
+    vertical-align: center;
+    margin-top: 10px;
+    padding-right: 0px;
+}
+
+footer {
+    font-family: 'Franklin Gothic';
+    src: url('fonts/framd.ttf');
+    position: fixed;
+    right: 10; bottom: 10;
+    font-size: 10;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+.wibro{
+    
+
+    margin-left: 0px;
+    width: 150px;
+    height: 120px;
+  
+    }
+
+.wibro:hover {
+    -webkit-animation: 0.1s tremor ease-out infinite;  
+    animation: 0.1s tremor ease-out infinite;    
+}
+@-webkit-keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        top:-1px;
+        -webkit-transform: translateX(-4%);
+        transform: translateX(-4%);
+    }
+    50%, 100% {
+        left: 1px;
+        top: 1px;
+        -webkit-transform: translateX(4%);
+        transform: translateX(4%);
+    }
+}
+@-moz-keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        -webkit-transform: translateX(-4%);
+        transform: translateX(-4%);
+    }
+    50%, 100% {
+        left: 1px;
+        -webkit-transform: translateX(4%);
+        transform: translateX(4%);
+    }
+}
+@-ms-keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        -webkit-transform: translateX(-4%);
+        transform: translateX(-4%);
+    }
+    50%, 100% {
+        left: 1px;
+        -webkit-transform: translateX(4%);
+        transform: translateX(4%);
+    }
+}
+@-o-keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        -webkit-transform: translateX(-4%);
+        transform: translateX(-4%);
+    }
+    50%, 100% {
+        left: 1px;
+        -webkit-transform: translateX(4%);
+        transform: translateX(4%);
+    }
+}
+@keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        -webkit-transform: translateX(-4%);
+        transform: translateX(-4%);
+    }
+    50%, 100% {
+        left: 1px;
+        -webkit-transform: translateX(4%);
+        transform: translateX(4%);
+    }
+}
